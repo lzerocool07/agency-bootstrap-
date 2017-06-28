@@ -1,0 +1,66 @@
+.callback{
+    background: #7beec7;
+    padding: 50px 0;
+    .callbackLeft{
+        h4{
+            font:bold 30px $montserrat;
+            color:#fff;
+            text-transform: uppercase;
+            line-height:1.8; 
+        }
+        .callbackBtn{
+            font:bold 14px $montserrat;
+            color:#7beec7;
+            text-transform: uppercase;
+            padding:15px 30px; 
+            background: #fff;
+            border:none;
+            margin-bottom: 10px;
+            &:hover{
+                background: darken(#fff,50%);
+            }
+        }
+    }
+    .callbackRight{
+        padding:20px 25px;
+        background:#fff;
+        h5{
+            font:bold 24px $montserrat;
+            color:$mainColor;
+            text-transform: uppercase;
+        }
+        p{
+            font:18px $openSans;
+            color:#999999;
+            margin-bottom: 20px
+        }
+        .callbackForm{
+            input{
+                box-sizing: border-box;
+               
+                padding-left:20px; 
+                padding-right: 120px;
+                width:75%;  
+                height: 40px;
+                 
+            }
+            ::placeholder{    
+                font:bold 12px $montserrat;
+            }
+            button{
+                margin-top: 10px;
+                padding:0;
+                color: #fff;
+                width:20%;  
+                height:40px;
+                border: none;
+                background:#7beec7;
+                text-transform: uppercase;
+                font:bold 14px $montserrat;
+                &:hover{
+                    background:darken(#7beec7,50%); 
+                }    
+            }
+        }
+    }
+}

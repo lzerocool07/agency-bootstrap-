@@ -1,0 +1,13 @@
+@import 'variables' , 'mixins' , 'header' ,'advantages','portfolio' ,'callback' ,'footer','media';
+
+body{
+    font-family: $openSans;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+    

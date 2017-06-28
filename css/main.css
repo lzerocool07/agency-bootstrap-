@@ -1,0 +1,435 @@
+.headerBlock {
+  background: url(../img/headerBg.jpg) no-repeat top right;
+  background-size: cover;
+  z-index: -2;
+}
+
+.topHeader {
+  position: relative;
+  padding-top: 20px;
+}
+
+.topHeader .logo {
+  float: left;
+}
+
+.topHeader .logo h1 {
+  font: bold 18px "Montserrat";
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.topHeader .navigation {
+  float: right;
+  list-style: none;
+  padding-left: 0;
+}
+
+.topHeader .navigation li {
+  float: left;
+  margin-right: 20px;
+}
+
+.topHeader .navigation li a {
+  display: block;
+  font: bold 14px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+}
+
+.topHeader .navigation li a:hover {
+  color: black;
+}
+
+.topHeader .touchMenu {
+  font: bold 22px "Montserrat";
+  color: #60606e;
+  margin-top: -10px;
+  cursor: pointer;
+  display: none;
+}
+
+.headerContentTop {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.headerContentTop h2 {
+  display: inline-block;
+  font: bold 48px "Montserrat";
+  color: #60606e;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding: 15px 30px;
+  border: 10px solid #60606e;
+  position: relative;
+}
+
+.headerContentTop h2:before {
+  content: 'we\'re';
+  font: bold 18px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+  background: #7beec7;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -41px;
+}
+
+.headerContentTop p {
+  font: 16px "OpenSans";
+  color: #60606e;
+  line-height: 1.7;
+}
+
+.headerContentBottom {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.headerContentBottom h3 {
+  font: bold 30px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.headerContentBottom h3:before {
+  content: '';
+  width: 60px;
+  height: 20px;
+  background: #7beec7;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.headerContentBottom p {
+  font: 16px "OpenSans";
+  color: #60606e;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.headerContentBottom .btnHeader {
+  display: inline-block;
+  float: right;
+  font: bold 16px "Montserrat";
+  color: #fff;
+  padding: 15px 30px;
+  background: #7beec7;
+}
+
+.headerContentBottom .btnHeader:hover {
+  background: #1bcf92;
+}
+
+.advantages {
+  padding: 100px 0 100px 0;
+  background: #fff;
+}
+
+.advantages .advantagesTop {
+  margin-bottom: 100px;
+}
+
+.advantages .advantagesTop h3 {
+  font: bold 30px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 0;
+}
+
+.advantages .advantagesTop h3:before {
+  content: '';
+  width: 60px;
+  height: 20px;
+  background: #7beec7;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.advantages .advantagesTop p {
+  font: 16px "OpenSans";
+  color: #60606e;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.advantages .advantagesBottomItems .advIcons {
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+.advantages .advantagesBottomItems h4 {
+  font: bold 18px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+}
+
+.advantages .advantagesBottomItems ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.advantages .advantagesBottomItems ul li {
+  margin-top: 20px;
+}
+
+.advantages .advantagesBottomItems ul li a {
+  font: 14px "OpenSans";
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.advantages .advantagesBottomItems ul li a:hover {
+  text-decoration: underline;
+}
+
+.portfolio {
+  background: #e6e6e6;
+  padding: 20px 0 125px 0;
+}
+
+.portfolio .portfolioTop {
+  margin-bottom: 100px;
+}
+
+.portfolio .portfolioTop h3 {
+  text-align: center;
+  font: bold 30px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio .portfolioTop h3:before {
+  content: '';
+  width: 60px;
+  height: 20px;
+  background: #7beec7;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.portfolio .portfolioTop p {
+  text-align: center;
+  font: 16px "OpenSans";
+  color: #60606e;
+  line-height: 1.7;
+}
+
+.portfolio .portfolioLeft h5 {
+  font: bold 30px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+}
+
+.portfolio .portfolioLeft ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio .portfolioLeft ul li {
+  margin-top: 20px;
+}
+
+.portfolio .portfolioLeft ul li a {
+  font: bold 14px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+}
+
+.portfolio .portfolioLeft ul li a:hover {
+  color: black;
+}
+
+.portfolio .portfolioRight img {
+  margin-bottom: 20px;
+}
+
+.callback {
+  background: #7beec7;
+  padding: 50px 0;
+}
+
+.callback .callbackLeft h4 {
+  font: bold 30px "Montserrat";
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.8;
+}
+
+.callback .callbackLeft .callbackBtn {
+  font: bold 14px "Montserrat";
+  color: #7beec7;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  background: #fff;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.callback .callbackLeft .callbackBtn:hover {
+  background: gray;
+}
+
+.callback .callbackRight {
+  padding: 20px 25px;
+  background: #fff;
+}
+
+.callback .callbackRight h5 {
+  font: bold 24px "Montserrat";
+  color: #60606e;
+  text-transform: uppercase;
+}
+
+.callback .callbackRight p {
+  font: 18px "OpenSans";
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.callback .callbackRight .callbackForm input {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 120px;
+  width: 75%;
+  height: 40px;
+}
+
+.callback .callbackRight .callbackForm ::placeholder {
+  font: bold 12px "Montserrat";
+}
+
+.callback .callbackRight .callbackForm button {
+  margin-top: 10px;
+  padding: 0;
+  color: #fff;
+  width: 20%;
+  height: 40px;
+  border: none;
+  background: #7beec7;
+  text-transform: uppercase;
+  font: bold 14px "Montserrat";
+}
+
+.callback .callbackRight .callbackForm button:hover {
+  background: #0c5e42;
+}
+
+.footerBlock {
+  padding: 30px 0 30px 0;
+}
+
+.footerBlock .footerLeft ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footerBlock .footerLeft ul li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.footerBlock .footerLeft ul li:last-child {
+  border-right: none;
+  margin-right: 0;
+}
+
+.footerBlock .footerLeft ul li a {
+  font: 14px "OpenSans";
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+
+.footerBlock .footerLeft ul li a:hover {
+  text-decoration: underline;
+}
+
+.footerBlock .footerRight p {
+  font: 14px "OpenSans";
+  color: #818181;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .topHeader .navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  .topHeader .navigation li {
+    float: none;
+  }
+  .topHeader .navigation li a {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .topHeader .touchMenu {
+    display: block;
+    float: right;
+  }
+  .headerContentTop h2:before {
+    content: '';
+    padding: 0;
+  }
+  .headerContentBottom {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .portfolioLeft h5 {
+    text-align: center;
+  }
+  .portfolioLeft ul {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footerBlock .footerLeft ul {
+    text-align: center;
+  }
+  .footerBlock .footerLeft ul li {
+    float: none;
+    border-right: 0;
+    margin: 5px 0 0 0;
+  }
+  .footerBlock .footerLeft ul li a {
+    display: inline-block;
+  }
+  .footerBlock .footerRight p {
+    text-align: center;
+  }
+}
+
+body {
+  font-family: "OpenSans";
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

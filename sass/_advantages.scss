@@ -1,0 +1,48 @@
+.advantages{
+    padding:100px 0 100px 0;
+    background: #fff;
+    .advantagesTop{
+        margin-bottom:100px; 
+        h3{
+            @include mainTittle;
+            text-align: center;
+            margin-top: 0;
+            &:before{
+                content: '';
+                @include titleBg;
+            }
+    
+        }
+        p{
+            @include mainText;
+            text-align: center;
+        }
+    }
+    .advantagesBottomItems{
+        .advIcons{
+            font-size: 36px;
+            margin-top: 40px;
+        }
+        h4{
+            font:bold 18px $montserrat;
+            color:$mainColor;
+            text-transform:uppercase;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                margin-top:20px;
+                a{
+                    font:14px $openSans;
+                    color:#999999;
+                    text-transform: uppercase;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        
+    }
+}

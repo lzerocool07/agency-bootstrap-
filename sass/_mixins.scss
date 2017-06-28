@@ -1,0 +1,23 @@
+@mixin mainText{
+    font:16px $openSans;
+    color:$mainColor;
+    line-height: 1.7;
+    
+}
+
+@mixin mainTittle{
+    font:bold 30px $montserrat;
+    color:$mainColor;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+@mixin titleBg{
+    width:60px;
+    height: 20px;
+    background: #7beec7;
+    position: absolute;
+    top:50%;
+    z-index:-1; 
+    
+}

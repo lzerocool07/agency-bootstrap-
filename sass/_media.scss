@@ -1,0 +1,71 @@
+@media screen and (max-width:768px){
+    .topHeader{
+        .navigation{
+            display: none;
+            position: absolute;
+            top:100%;
+            left:0;
+            right:0;
+           
+            li{
+                float:none;
+                a{
+                    text-align:center;
+                    margin-bottom:10px;  
+                }
+            }
+        }
+        .touchMenu{
+            display:block;
+            float:right;
+        } 
+    }
+    .headerContentTop{
+        h2:before{
+            content: '';
+            padding: 0;
+        }
+    }
+    .headerContentBottom{
+        margin-top: 20px;
+    }
+    
+  
+}
+
+@media screen and (max-width:992px){
+    .portfolioLeft{
+        h5{
+            text-align: center;
+        }
+        ul{
+            text-align: center;
+        }
+    }
+}
+
+
+@media screen and (max-width:650px){
+    .footerBlock{
+        .footerLeft{
+            ul{
+                text-align: center;
+            li{
+                float:none;
+                border-right:0;
+                margin:5px 0 0 0;
+              
+                a{
+                    display: inline-block;
+                }
+                }
+            }
+        }
+        .footerRight{
+            p{
+                text-align: center;
+            }
+        }
+    }
+        
+}

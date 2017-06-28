@@ -1,0 +1,115 @@
+
+
+//header
+.headerBlock{
+    background: url(../img/headerBg.jpg)no-repeat top right;
+    background-size: cover;
+   
+    z-index: -2;
+}
+    //topHeader
+.topHeader{
+    position: relative;
+    padding-top: 20px;
+    .logo{
+        float:left;
+        h1{
+            font:bold 18px $montserrat;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+    }
+    .navigation{
+        float: right;
+        list-style:none;
+        padding-left: 0;
+        li{
+            float:left;
+            margin-right:20px; 
+            a{
+                display: block;
+                font:bold 14px $montserrat;
+                color:$mainColor;
+                text-transform: uppercase;
+                &:hover{
+                    color:darken($mainColor,50%);
+                }
+            }
+        }
+    }
+    .touchMenu{
+        font:bold 22px $montserrat;
+        color:$mainColor;
+        margin-top: -10px;
+        cursor: pointer;
+        display: none;
+       
+    
+    }
+}
+    //end topHeader
+    //headerContent
+.headerContentTop{
+    padding-top:200px; 
+    text-align: center;
+    h2{
+        display: inline-block;
+        font:bold 48px $montserrat;
+        color:$mainColor;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+        padding: 15px 30px;
+        border:10px solid $mainColor;
+        position: relative;
+        &:before{
+            content: 'we\'re';
+            font:bold 18px $montserrat;
+            color:$mainColor;
+            text-transform: uppercase;
+            background: #7beec7;
+            padding:5px 10px;
+            position: absolute;
+            bottom: 110%;
+            left:50%;
+            margin-left:-41px;
+            
+        }
+    }
+    p{
+        @include mainText;
+    }
+    
+}
+    //end headerContentTop
+
+    //headerContentBottom
+.headerContentBottom{
+    margin-top:100px;
+    margin-bottom: 50px;
+    
+    h3{
+        @include mainTittle;
+        &:before{
+            content:'';
+            @include titleBg;
+        }
+    }
+    p{
+        @include mainText;
+        margin-bottom: 10px;
+    }
+    .btnHeader{
+        display: inline-block;
+        float: right;
+        font:bold 16px $montserrat;
+        color:#fff;
+        padding: 15px 30px;
+        background: #7beec7;
+        &:hover{
+            background:darken(#7beec7,25%);
+        }
+    }
+}
+    //end headerContentBottom
+//header
