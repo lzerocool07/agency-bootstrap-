@@ -31,6 +31,18 @@
             font:14px $openSans;
             color:darken(#9a9a9a,10%);
             text-transform: uppercase;
+            text-align: right;
+        }
+        .footerIcons{
+            float:right;
+            i{
+                font-size:20px; 
+                color:$mainColor;
+                margin-left:10px;  
+                &:hover{
+                    color:darken($mainColor,25%);
+                }
+            }
         }
     }
 }

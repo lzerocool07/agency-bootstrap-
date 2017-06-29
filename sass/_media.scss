@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:640px){
     .topHeader{
         .navigation{
             display: none;
@@ -54,7 +54,7 @@
                 float:none;
                 border-right:0;
                 margin:5px 0 0 0;
-              
+                padding-right: 0;
                 a{
                     display: inline-block;
                 }
@@ -65,7 +65,45 @@
             p{
                 text-align: center;
             }
+            .footerIcons{
+                float: none;
+                text-align:center;
+               
+            }
         }
     }
         
+}
+
+
+@media screen and (max-width:380px){
+    
+    .headerContentTop{
+        h2{
+        font:bold 30px $montserrat;
+        }
+    }
+    .advantages{
+        padding:50px 0 50px 0;
+        .advantagesTop{
+            margin-bottom: 0;
+        }
+    }
+    .portfolio{
+        .portfolioTop{
+            margin-bottom: 0;
+        }
+        .portfolioRight
+            a{
+                .descr{
+                    h4{
+                        font:bold 12px $montserrat
+                    }
+                    p{
+                        font:10px $openSans;
+                        margin-top: 0;
+                    }
+                }
+        }
+    }
 }

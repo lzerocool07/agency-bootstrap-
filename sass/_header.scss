@@ -2,7 +2,8 @@
 
 //header
 .headerBlock{
-    background: url(../img/headerBg.jpg)no-repeat top right;
+    background: url('../img/headerBg.jpg')top right no-repeat;
+    background-attachment: fixed;
     background-size: cover;
    
     z-index: -2;
@@ -87,7 +88,6 @@
 .headerContentBottom{
     margin-top:100px;
     margin-bottom: 50px;
-    
     h3{
         @include mainTittle;
         &:before{
